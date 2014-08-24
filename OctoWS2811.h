@@ -21,6 +21,8 @@
     THE SOFTWARE.
 */
 
+#ifndef _OCTOWS2811_H_INCLUDED
+#define _OCTOWS2811_H_INCLUDED
 
 #include <Arduino.h>
 
@@ -62,3 +64,4 @@ private:
 	static uint8_t params;
 };
 
+#endif // !_OCTOWS2811_H_INCLUDED
