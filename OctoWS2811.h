@@ -21,6 +21,8 @@
     THE SOFTWARE.
 */
 
+#ifndef _OCTOWS2811_H_INCLUDED
+#define _OCTOWS2811_H_INCLUDED
 
 #include <Arduino.h>
 #include "DMAChannel.h"
@@ -72,3 +74,4 @@ private:
 	static void isr(void);
 };
 
+#endif // !_OCTOWS2811_H_INCLUDED
